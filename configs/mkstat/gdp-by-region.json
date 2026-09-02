@@ -1,0 +1,55 @@
+{
+  "url": "https://makstat.stat.gov.mk:443/PXWeb/sq/f979de4e-e3f5-41a6-9e9f-43e55d296b32",
+  "encoding": "utf-8",
+  "table_name": "gdp",
+  "exchange_rate": 61.54,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republic of North Macedonia",
+      "map": null
+    },
+    {
+      "column_name": "approach",
+      "table_name": "approaches",
+      "field_name": null,
+      "default_value": "region",
+      "map": null
+    },
+    {
+      "column_name": "region",
+      "table_name": "regions",
+      "field_name": "Регион",
+      "default_value": null,
+      "map": {
+        "Република Македонија": "Republic of North Macedonia",
+        "Вардарски регион": "Vardar region",
+        "Источен регион": "Eastern region",
+        "Југозападен регион": "Southwestern region",
+        "Југоисточен регион": "Southeast region",
+        "Пелагониски регион": "Pelagonia region",
+        "Полошки регион": "Polog region",
+        "Североисточен регион": "Northeast region",
+        "Скопски регион": "Skopje region"
+      }
+    },
+    {
+      "column_name": "type",
+      "table_name": "types",
+      "field_name": "Мерка",
+      "default_value": null,
+      "map": {
+        "БДП, во милиони денари": "Gross Domestic Product in million Euro"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Година",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

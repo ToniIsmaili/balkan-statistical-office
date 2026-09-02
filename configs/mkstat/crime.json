@@ -1,0 +1,34 @@
+{
+  "url": "https://makstat.stat.gov.mk:443/PXWeb/sq/cb7f5ea8-9c5e-4f66-ba47-950a294e9350",
+  "encoding": "windows-1251",
+  "table_name": "crimes",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republic of North Macedonia",
+      "map": null
+    },
+    {
+      "column_name": "offence_type",
+      "table_name": "offence_types",
+      "field_name": "Кривично дело",
+      "default_value": null,
+      "map": {
+        "....Неовластено производство и пуштање во промет на наркотични дроги, психотропни супстанции и прекурсори": "Drug crimes",
+        "....Разбојничка кражба": "Armed robbery",
+        "....Измама": "Fraud",
+        "....Фалсификување пари": "Counterfeit"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Година",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

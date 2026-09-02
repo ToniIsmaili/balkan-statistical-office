@@ -1,0 +1,42 @@
+{
+  "url": "https://makstat.stat.gov.mk:443/PXWeb/sq/7ee472a9-4d68-4f08-90f1-0df7fafc810b",
+  "encoding": "windows-1251",
+  "table_name": "gdp",
+  "exchange_rate": 61.54,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republic of North Macedonia",
+      "map": null
+    },
+    {
+      "column_name": "approach",
+      "table_name": "approaches",
+      "field_name": null,
+      "default_value": "production",
+      "map": null
+    },
+    {
+      "column_name": "type",
+      "table_name": "types",
+      "field_name": "Категории",
+      "default_value": null,
+      "map": {
+        "Бруто-вредност на производството (основни цени)": "Output at current prices",
+        "Меѓуфазна потрошувачка": "Intermediate Consumption at current prices",
+        "Бруто-додадена вредност (основни цени)": "Gross Value Added at current prices",
+        "Даноци на производи, нето": "Net taxes on products at current prices",
+        "Бруто-домашен производ (пазарни цени)": "GDP at market prices  at current prices"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Година",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://databaza.instat.gov.al:8083/sq/a2a42a87-438f-4663-8983-61e31c78db43",
+  "encoding": "ISO-8859-1",
+  "table_name": "migrations",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republika e Shqipërisë",
+      "map": null
+    },
+    {
+      "column_name": "migration_type",
+      "table_name": "migration_types",
+      "field_name": "Type",
+      "default_value": null,
+      "map": {
+        "Net Migration": "Total"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Year",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

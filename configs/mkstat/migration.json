@@ -1,0 +1,33 @@
+{
+  "url": "https://makstat.stat.gov.mk:443/PXWeb/sq/6b914d5e-186c-47f7-91f6-d75b5f525313",
+  "encoding": "utf-8",
+  "table_name": "migrations",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republic of North Macedonia",
+      "map": null
+    },
+    {
+      "column_name": "migration_type",
+      "table_name": "migration_types",
+      "field_name": "Доселени/Отселени",
+      "default_value": null,
+      "map": {
+        "Вкупно доселени": "Immigrants",
+        "Миграционо салдо": "Total",
+        "Вкупно отселени": "Emigrants"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Година",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

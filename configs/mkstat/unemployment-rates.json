@@ -1,0 +1,33 @@
+{
+  "url": "https://makstat.stat.gov.mk:443/PXWeb/sq/850ecaee-5467-4d96-b72c-9cea2dd4503d",
+  "encoding": "utf-8",
+  "table_name": "unemployment_rates",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republic of North Macedonia",
+      "map": null
+    },
+    {
+      "column_name": "gender",
+      "table_name": "genders",
+      "field_name": "Пол",
+      "default_value": null,
+      "map": {
+        "Вкупно": "Both",
+        "Мажи": "Male",
+        "Жени": "Female"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Година",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

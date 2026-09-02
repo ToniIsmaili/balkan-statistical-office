@@ -1,0 +1,41 @@
+{
+  "url": "https://databaza.instat.gov.al:8083/sq/a47cbab5-5384-491e-81c8-b83fd5300115",
+  "encoding": "ISO-8859-1",
+  "table_name": "gdp",
+  "exchange_rate": 96.59,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republika e Shqipërisë",
+      "map": null
+    },
+    {
+      "column_name": "approach",
+      "table_name": "approaches",
+      "field_name": null,
+      "default_value": "expenditure",
+      "map": null
+    },
+    {
+      "column_name": "type",
+      "table_name": "types",
+      "field_name": "Components of Expenditure",
+      "default_value": null,
+      "map": {
+        "i. Exports of goods": "Exports of goods",
+        "ii. Exports of services": "Exports of services",
+        "i. Imports of goods": "Imports of goods",
+        "ii.  Imports of services": "Imports of services"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Year",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

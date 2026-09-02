@@ -1,0 +1,31 @@
+{
+  "url": "https://databaza.instat.gov.al:8083/sq/3fe7c337-32a3-45fe-bc6a-2b874ee3f774",
+  "encoding": "ISO-8859-1",
+  "table_name": "unemployment_rates",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republika e Shqipërisë",
+      "map": null
+    },
+    {
+      "column_name": "gender",
+      "table_name": "genders",
+      "field_name": "Unemployment rate",
+      "default_value": null,
+      "map": {
+        "Unemployment rate": "Both"
+      }
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Year",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

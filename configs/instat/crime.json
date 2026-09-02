@@ -1,0 +1,29 @@
+{
+  "url": "https://databaza.instat.gov.al:8083/sq/ca9a4078-438e-49af-81d0-ddaf481e0826",
+  "encoding": "ISO-8859-1",
+  "table_name": "crimes",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republika e Shqipërisë",
+      "map": null
+    },
+    {
+      "column_name": "offence_type",
+      "table_name": "offence_types",
+      "field_name": "Type of offence",
+      "default_value": null,
+      "map": null
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Year",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}

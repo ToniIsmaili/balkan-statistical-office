@@ -1,0 +1,43 @@
+{
+  "url": "https://databaza.instat.gov.al:8083/sq/179f5935-ac6a-460a-82b0-a6a0224b9fda",
+  "encoding": "ISO-8859-1",
+  "table_name": "gdp",
+  "exchange_rate": null,
+  "columns": [
+    {
+      "column_name": "country",
+      "table_name": "countries",
+      "field_name": null,
+      "default_value": "Republika e Shqipërisë",
+      "map": null
+    },
+    {
+      "column_name": "approach",
+      "table_name": "approaches",
+      "field_name": null,
+      "default_value": "region",
+      "map": null
+    },
+    {
+      "column_name": "region",
+      "table_name": "regions",
+      "field_name": "Region",
+      "default_value": null,
+      "map": null
+    },
+    {
+      "column_name": "type",
+      "table_name": "types",
+      "field_name": "Type",
+      "default_value": null,
+      "map": null
+    },
+    {
+      "column_name": "year",
+      "table_name": "dates",
+      "field_name": "Years",
+      "default_value": null,
+      "map": null
+    }
+  ]
+}
